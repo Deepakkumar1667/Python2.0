@@ -27,3 +27,9 @@ def sum(n):
     return sum(n-1) + n
 
 print(sum(4))
+
+
+def full_name(name, ending="sharma"):
+    print("Hello Mr.",name,ending)
+
+full_name("Deepak")
