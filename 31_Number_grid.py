@@ -49,7 +49,7 @@ def print_grid(grid):
         for v in row:
             color = BLACK if v == 1.0 else GREEN
 
-            line.append(f"{BLACK_BG}{color}{v:.1f}{RESET}")
+            line.append(f"{BLACK_BG}{color}{int(v)}{RESET}")
 
         print(" ".join(line))
 
